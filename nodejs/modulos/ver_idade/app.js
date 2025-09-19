@@ -1,4 +1,6 @@
-const { calcularIdade } = require('./funcoes_matematicas');
+// Importa a função calcularIdade do módulo funcoes_matematicas.js      
+import { calcularIdade } from './funcoes_matematicas.js';
+
 
 // Exemplo de uso da função calcularIdade
 const anoNascimento = 2000;
