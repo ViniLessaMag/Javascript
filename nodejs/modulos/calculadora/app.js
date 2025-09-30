@@ -1,5 +1,5 @@
 
-import { soma, subtrai, multiplica, divide } from './funcoes_matematicas.js';
+import { soma, subtrai, multiplica, divide } from './modulos/funcoes_matematicas.js';
 
 
 console.log('Soma: 2 + 3 =', soma(2, 3));
