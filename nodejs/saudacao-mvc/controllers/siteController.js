@@ -1,5 +1,6 @@
 
 const saudacaoModel = require('../models/saudacaoModel');
+const clientesController = require('./clientesController');
 
 module.exports = {
   index: (req, res) => {
@@ -19,5 +20,6 @@ module.exports = {
     usuarios: (req, res) => {
     res.sendFile('usuarios.html', { root: './views' });
   }
+  ,
 
   };
