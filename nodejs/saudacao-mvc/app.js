@@ -25,6 +25,10 @@ app.use('/users', usersRoutes);
   const clientesRoutes = require('./routes/clientes');
   app.use('/clientes', clientesRoutes);
 
+  //vini rotas
+  const viniRoutes = require('./routes/vini');
+  app.use('/vini', viniRoutes);
+
 // Servidor
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);

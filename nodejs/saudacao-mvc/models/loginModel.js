@@ -2,11 +2,12 @@ const { verificado } = require("../controllers/clientesController")
 
 module.exports = {
     autenticar: (usuario, senha) => {
+        let acesso;
         // ...autenticação de exemplo...
         if (usuario === 'admin' && senha === '123') {
-            return 'Olá admin, você foi autenticado com sucesso!';
+            acesso = "liberado";
+        }else {
+            acesso
         }
-        else {
-            return 'Você falhou na autenticação.';
-        }
+        return "Ola, ${usuario}, seu acesso foi ${acesso}"
 }};
