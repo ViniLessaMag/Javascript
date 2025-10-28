@@ -1,6 +1,6 @@
 
 const saudacaoModel = require('../models/saudacaoModel');
-const clientesController = require('./clientesController');
+
 
 module.exports = {
   index: (req, res) => {
